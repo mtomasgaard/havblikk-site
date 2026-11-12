@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Havblikk: personvern · privacy · Datenschutz</title>
+<meta name="description" content="Personvern i Havblikk: ingen konto, ingen reklame, ingen analyse. Privacy policy in English and German.">
+<link rel="stylesheet" href="../style.css?v=20261112">
+</head>
+<body>
+<main>
+<header>
+<p class="app"><a href="../">Havblikk</a></p>
+<nav><a href="#nb" lang="nb">Norsk</a> · <a href="#en" lang="en">English</a> · <a href="#de" lang="de">Deutsch</a></nav>
+</header>
+
+<section lang="nb" id="nb">
+<h2>Personvern i Havblikk</h2>
+<p>Havblikk er laget av Mathias Tomasgaard (behandlingsansvarlig), som du når på <a href="mailto:support@havblikk.app">support@havblikk.app</a>. Denne siden sier hva appen gjør med opplysninger om deg.</p>
+<h3>Kort sagt</h3>
+<p>Appen har ingen konto, ingen reklame, ingen analyse og ingen sporing, og bruker ikke telefonens posisjon. Plassene, fangstene og bildene dine blir på telefonen.</p>
+<h3>Det appen henter, og hvem som får hva</h3>
+<ul>
+<li>Sjøkartet hentes fra Kartverket. Kartverket får da IP-adressen din og vet hvilket område kartet viser.</li>
+<li>Været fra MET Norway og tidevannet fra Kartverket hentes gjennom vår egen server hos Cloudflare: for punktet under trådkorset hver gang kartet står i ro, for punktet du åpner værvarselet for, og for plassene du har varsel på (høyst ti) når du åpner appen eller kommer tilbake til den, lagrer, endrer eller flytter en plass med varsel, endrer tiden for varselet eller slår været på, avrundet til en rute på om lag 1 × 0,5 km. Punktet sendes i en egen header, aldri i adressen. MET og Kartverket får punktet fra serveren, aldri IP-adressen din. Du kan slå vær og tidevann av under «Lag og farger», «Vær og sjø».</li>
+<li>Vind-, strøm- og bølgelagene hentes fra serveren vår for områdene kartet viser, aldri for telefonens posisjon. Der kartet viser grensen mellom to av METs områder, hentes begge, så forespørslene sammen viser omtrent hvor kartet er.</li>
+<li>Dybdekartet hentes fra serveren vår for området kartet viser, i ruter på noen få kilometer, og der trådkorset står i ro fra zoomnivå 12, for de fire rutene rundt punktet. Det kan ikke slås av. Rutene lagres på telefonen i et mellomlager som systemet kan tømme og som ikke sikkerhetskopieres, høyst 500 MB; en rute som ikke er brukt på 60 dager, slettes. Filnavnene viser hvilke områder kartet har vist.</li>
+<li>Serverens kode fører ingen logg over forespørsler og tar ikke vare på IP-adresser. Den tar vare på METs svar per rute på om lag 1 × 0,5 km i noen timer, og senest et døgn, så telefoner i samme rute deler ett svar, uten noe om hvem som spurte. Serverens filer lagres i EU. MET og Kartverket ser serveren, ikke deg; de ser hvilket av Cloudflares datasentre forespørselen kom gjennom, altså omtrent hvilken region.</li>
+<li>Cloudflare, som driver serveren for oss, viser oss et utvalg av nylige forespørsler med IP-adresse, tidspunkt og adressen som ble spurt om, i om lag 31 dager. Punktet står aldri i adressen; for vind-, strøm- og bølgelagene og dybdekartet står områdene der. Cloudflare kan i tillegg føre egne sikkerhetslogger etter sine egne vilkår.</li>
+<li>Serveren noterer når den lagret et svar for en rute. Sammenholdt med utvalget over kunne det i prinsippet vise hvilken IP-adresse som spurte om ruten, så lenge svaret er lagret (høyst et døgn). Vi gjør ikke det.</li>
+</ul>
+<h3>Det som blir på telefonen</h3>
+<p>Navn, lister, typer, notater og bilder sendes aldri. Står en lagret plass under trådkorset, sendes punktet som for et hvilket som helst punkt, avrundet. Bilder du legger til, lagres i en mindre kopi uten posisjonen og de andre opplysningene kameraet la i dem; bare tidspunktet bildet ble tatt, beholdes. Alt dette tas med i telefonens sikkerhetskopi slik du har stilt den inn (iCloud eller datamaskinen), og slettes når du sletter appen.</p>
+<p>For hver plass du har varsel på, tar appen vare på sjekkene av dagene og det siste varselet sa: plassens nummer i appen, datoer og vindtall, aldri posisjonen eller navnet. Dette tas ikke med i sikkerhetskopien, og slettes når du slår været av.</p>
+<h3>Kjøp</h3>
+<p>Prøveperioden og kjøpet går gjennom Apples App Store. Apple gir oss bare salgstall og, om du har valgt å dele analysedata med utviklere, anonyme krasjrapporter.</p>
+<h3>Grunnlaget og hvor lenge</h3>
+<ul>
+<li>Punktet sendes for å gi deg værvarselet og tidevannet du ber om (berettiget interesse). Du kan protestere ved å slå det av under «Lag og farger», «Vær og sjø»; da sendes punktet ikke lenger, og det appen har tatt vare på, slettes.</li>
+<li>IP-adressen trengs for å svare på en forespørsel (berettiget interesse). Serverens kode tar ikke vare på den; Cloudflares utvalg av forespørsler, som vi kan se, viser den i om lag 31 dager. For å stoppe misbruk teller Cloudflare forespørslene fra hver adresse i ett minutt, og glemmer dem så.</li>
+<li>METs svar per rute holdes i noen timer, senest et døgn; Cloudflares logger etter Cloudflares vilkår; det på telefonen til du sletter appen.</li>
+<li>Cloudflare behandler opplysningene for oss etter sin databehandleravtale, også utenfor EØS, under EU–USA-rammeverket for personvern og EUs standardavtaler. MET og Kartverket er selv ansvarlige for det de mottar, se deres personvernsider.</li>
+</ul>
+<h3>Dine rettigheter</h3>
+<p>Du kan be om innsyn, retting og sletting. Vi har ingen opplysninger om deg å vise: det appen lagrer, ligger på telefonen din. Du kan klage til Datatilsynet (<a href="https://datatilsynet.no">datatilsynet.no</a>); i Storbritannia til ICO (ico.<a href="https://org.uk">org.uk</a>). Spørsmål: <a href="mailto:support@havblikk.app">support@havblikk.app</a>.</p>
+<h3>Endringer</h3>
+<p>Endres denne siden, står datoen for endringen her. Sist endret: 12. november 2026.</p>
+</section>
+
+<section lang="en" id="en">
+<h2>Privacy in Havblikk</h2>
+<p>Havblikk is made by Mathias Tomasgaard (the controller), whom you can reach at <a href="mailto:support@havblikk.app">support@havblikk.app</a>. This page says what the app does with information about you.</p>
+<h3>In short</h3>
+<p>The app has no account, no ads, no analytics and no tracking, and does not use your phone's location. Your places, catches and photos stay on your phone.</p>
+<h3>What the app fetches, and who receives what</h3>
+<ul>
+<li>The sea chart comes from Kartverket, the Norwegian Mapping Authority, which then receives your IP address and learns the area the map shows.</li>
+<li>The weather from MET Norway and the tide from Kartverket come through our own server at Cloudflare: for the point under the crosshair each time the map rests, for the point you open the forecast for, and for the places you have alerts on (ten at most) when you open the app or come back to it, save, change or move a place with an alert, change the alerts' time or turn the weather on, rounded to a cell of about 1 × 0.5 km. The point is sent in a header of its own, never in the address. MET and Kartverket receive the point from the server, never your IP address. You can turn the weather and the tide off under "Layers and colours", "Weather &amp; sea".</li>
+<li>The wind, current and wave layers come from our server for the areas the map shows, never for your phone's position. Where the map shows the border between two of MET's areas, both are fetched, so the requests together show roughly where the map is.</li>
+<li>The depth map comes from our server for the area the map shows, in tiles of a few kilometres, and where the crosshair rests from zoom level 12, for the four tiles around the point. It cannot be turned off. The tiles are kept on your phone in a cache the system may clear and that is not backed up, 500 MB at most; a tile not used for 60 days is deleted. Their file names show which areas the map has shown.</li>
+<li>The server's code keeps no log of requests and no IP addresses. It keeps MET's answer per cell of about 1 × 0.5 km for a few hours, and a day at the most, so phones in the same cell share one answer, with nothing about who asked. The server's files are stored in the EU. MET and Kartverket see the server, not you; they see which of Cloudflare's data centres the request came through, which is roughly a region.</li>
+<li>Cloudflare, which runs the server for us, shows us a sample of recent requests with the IP address, the time and the address asked for, for about 31 days. The point is never in the address; for the wind, current and wave layers and the depth map the areas are. Cloudflare may also keep its own security logs under its own terms.</li>
+<li>The server notes when it stored an answer for a cell. Set beside the sample above, that could in principle show which IP address asked for the cell while the answer is kept (a day at the most). We do not do that.</li>
+</ul>
+<h3>What stays on your phone</h3>
+<p>Names, lists, types, notes and photos are never sent. When a saved place is under the crosshair, its point is sent as any other point is, rounded. A photo you add is kept as a smaller copy without the location and the other details the camera put in it; only the time it was taken is kept. All of this is part of your phone's backup as you have set it up (iCloud or your computer), and goes when you delete the app.</p>
+<p>For each place you have an alert on, the app keeps the checks of its days and what the last notice told: the place's number in the app, dates and wind figures, never its position or name. This is not part of the backup, and it is deleted when you turn the weather off.</p>
+<h3>Purchases</h3>
+<p>The trial and the purchase go through Apple's App Store. Apple gives us only sales figures and, if you chose to share analytics with app developers, anonymous crash reports.</p>
+<h3>The basis, and for how long</h3>
+<ul>
+<li>The point is sent to give you the forecast and the tide you ask for (legitimate interest). You can object by turning it off under "Layers and colours", "Weather &amp; sea"; then the point is no longer sent, and what the app kept is deleted.</li>
+<li>The IP address is needed to answer a request (legitimate interest). The server's code does not keep it; Cloudflare's sample of requests, which we can see, shows it for about 31 days. To stop abuse, Cloudflare counts the requests from each address for one minute, then forgets them.</li>
+<li>MET's answers per cell are kept for a few hours, a day at the most; Cloudflare's logs under Cloudflare's terms; what is on your phone until you delete the app.</li>
+<li>Cloudflare processes the data for us under its data processing agreement, also outside the EEA, under the EU–US Data Privacy Framework and the EU's standard contractual clauses. MET and Kartverket are each responsible for what they receive; see their privacy pages.</li>
+</ul>
+<h3>Your rights</h3>
+<p>You may ask for access, correction and deletion. We hold no information about you to show: what the app stores is on your phone. You may complain to Datatilsynet, the Norwegian Data Protection Authority (<a href="https://datatilsynet.no">datatilsynet.no</a>); in the UK, to the ICO (ico.<a href="https://org.uk">org.uk</a>). Questions: <a href="mailto:support@havblikk.app">support@havblikk.app</a>.</p>
+<h3>Changes</h3>
+<p>If this page changes, the date of the change is given here. Last changed: 12 November 2026.</p>
+</section>
+
+<section lang="de" id="de">
+<h2>Datenschutz in Havblikk</h2>
+<p>Havblikk wird von Mathias Tomasgaard (Verantwortlicher) entwickelt, den du unter <a href="mailto:support@havblikk.app">support@havblikk.app</a> erreichst. Diese Seite sagt, was die App mit Informationen über dich macht.</p>
+<h3>Kurz gesagt</h3>
+<p>Die App hat kein Konto, keine Werbung, keine Analyse und kein Tracking und verwendet den Standort deines iPhones nicht. Deine Plätze, Fänge und Fotos bleiben auf deinem iPhone.</p>
+<h3>Was die App abruft, und wer was erhält</h3>
+<ul>
+<li>Die Seekarte kommt von Kartverket, der norwegischen Vermessungsbehörde, die dabei deine IP-Adresse erhält und erfährt, welches Gebiet die Karte zeigt.</li>
+<li>Das Wetter von MET Norway und die Gezeiten von Kartverket kommen über unseren eigenen Server bei Cloudflare: für den Punkt unter dem Fadenkreuz, jedes Mal wenn die Karte ruht, für den Punkt, für den du die Wettervorhersage öffnest, und für die Plätze, für die du Benachrichtigungen eingerichtet hast (höchstens zehn), wenn du die App öffnest oder zu ihr zurückkehrst, einen Platz mit Benachrichtigung sicherst, änderst oder verschiebst, die Mitteilungszeit änderst oder das Wetter einschaltest, gerundet auf eine Zelle von etwa 1 × 0,5 km. Der Punkt wird in einem eigenen Header gesendet, nie in der Adresse. MET und Kartverket erhalten den Punkt vom Server, nie deine IP-Adresse. Du kannst Wetter und Gezeiten unter „Ebenen und Farben“, „Wetter &amp; Meer“ ausschalten.</li>
+<li>Die Wind-, Strömungs- und Wellenebenen kommen von unserem Server für die Gebiete, die die Karte zeigt, nie für die Position deines iPhones. Zeigt die Karte die Grenze zwischen zwei Gebieten von MET, werden beide abgerufen, sodass die Anfragen zusammen ungefähr zeigen, wo die Karte ist.</li>
+<li>Die Tiefenkarte kommt von unserem Server für das Gebiet, das die Karte zeigt, in Kacheln von einigen Kilometern, und dort, wo das Fadenkreuz ab Zoomstufe 12 ruht, für die vier Kacheln um den Punkt. Sie lässt sich nicht ausschalten. Die Kacheln werden auf deinem iPhone in einem Zwischenspeicher aufbewahrt, den das System leeren kann und der nicht ins Backup kommt, höchstens 500 MB; eine Kachel, die 60 Tage nicht verwendet wurde, wird gelöscht. Ihre Dateinamen zeigen, welche Gebiete die Karte gezeigt hat.</li>
+<li>Der Code des Servers führt kein Protokoll der Anfragen und speichert keine IP-Adressen. Er bewahrt die Antwort von MET je Zelle von etwa 1 × 0,5 km einige Stunden auf, höchstens einen Tag, damit iPhones in derselben Zelle eine Antwort teilen, ohne etwas darüber, wer gefragt hat. Die Dateien des Servers liegen in der EU. MET und Kartverket sehen den Server, nicht dich; sie sehen, über welches Rechenzentrum von Cloudflare die Anfrage kam, also ungefähr eine Region.</li>
+<li>Cloudflare, das den Server für uns betreibt, zeigt uns eine Stichprobe der letzten Anfragen mit IP-Adresse, Uhrzeit und abgefragter Adresse, für etwa 31 Tage. Der Punkt steht nie in der Adresse; für die Wind-, Strömungs- und Wellenebenen und die Tiefenkarte stehen die Gebiete darin. Cloudflare kann außerdem eigene Sicherheitsprotokolle nach seinen eigenen Bedingungen führen.</li>
+<li>Der Server vermerkt, wann er eine Antwort für eine Zelle gespeichert hat. Neben die genannte Stichprobe gelegt, könnte das grundsätzlich zeigen, welche IP-Adresse nach der Zelle gefragt hat, solange die Antwort aufbewahrt wird (höchstens einen Tag). Das tun wir nicht.</li>
+</ul>
+<h3>Was auf deinem iPhone bleibt</h3>
+<p>Namen, Listen, Typen, Notizen und Fotos werden nie gesendet. Liegt ein gesicherter Platz unter dem Fadenkreuz, wird sein Punkt wie jeder andere Punkt gesendet, gerundet. Ein Foto, das du hinzufügst, wird als kleinere Kopie ohne den Ort und die anderen Angaben aufbewahrt, die die Kamera hineingeschrieben hat; nur die Aufnahmezeit bleibt. All das ist Teil des Backups deines iPhones, so wie du es eingerichtet hast (iCloud oder dein Computer), und verschwindet, wenn du die App löschst.</p>
+<p>Für jeden Platz mit Benachrichtigung bewahrt die App die Prüfungen seiner Tage auf und was die letzte Mitteilung gesagt hat: die Nummer des Platzes in der App, Daten und Windwerte, nie seine Position oder seinen Namen. Das ist nicht Teil des Backups und wird gelöscht, wenn du das Wetter ausschaltest.</p>
+<h3>Käufe</h3>
+<p>Die Testphase und der Kauf laufen über den App Store von Apple. Apple gibt uns nur Verkaufszahlen und, wenn du dem Teilen von Analysedaten mit App-Entwicklern zugestimmt hast, anonyme Absturzberichte.</p>
+<h3>Rechtsgrundlage und Dauer</h3>
+<ul>
+<li>Der Punkt wird gesendet, um dir die Wettervorhersage und die Gezeiten zu geben, nach denen du fragst (berechtigtes Interesse). Du kannst widersprechen, indem du es unter „Ebenen und Farben“, „Wetter &amp; Meer“ ausschaltest; dann wird der Punkt nicht mehr gesendet, und was die App aufbewahrt hat, wird gelöscht.</li>
+<li>Die IP-Adresse wird gebraucht, um eine Anfrage zu beantworten (berechtigtes Interesse). Der Code des Servers speichert sie nicht; die Stichprobe der Anfragen von Cloudflare, die wir sehen können, zeigt sie etwa 31 Tage lang. Um Missbrauch zu verhindern, zählt Cloudflare die Anfragen jeder Adresse eine Minute lang und vergisst sie dann.</li>
+<li>Die Antworten von MET je Zelle werden einige Stunden aufbewahrt, höchstens einen Tag; die Protokolle von Cloudflare nach den Bedingungen von Cloudflare; was auf deinem iPhone ist, bis du die App löschst.</li>
+<li>Cloudflare verarbeitet die Daten für uns nach seiner Vereinbarung zur Auftragsverarbeitung, auch außerhalb des EWR, auf Grundlage des EU-US Data Privacy Framework und der Standardvertragsklauseln der EU. MET und Kartverket sind jeweils für das verantwortlich, was sie erhalten; siehe ihre Datenschutzseiten.</li>
+</ul>
+<h3>Deine Rechte</h3>
+<p>Du kannst Auskunft, Berichtigung und Löschung verlangen. Wir haben keine Informationen über dich, die wir zeigen könnten: Was die App speichert, ist auf deinem iPhone. Du kannst dich bei Datatilsynet beschweren, der norwegischen Datenschutzbehörde (<a href="https://datatilsynet.no">datatilsynet.no</a>), oder bei der Datenschutzaufsichtsbehörde des Landes, in dem du lebst. Fragen: <a href="mailto:support@havblikk.app">support@havblikk.app</a>.</p>
+<h3>Änderungen</h3>
+<p>Ändert sich diese Seite, steht hier das Datum der Änderung. Zuletzt geändert: 12. November 2026.</p>
+</section>
+
+<footer><p><a href="mailto:support@havblikk.app">support@havblikk.app</a></p></footer>
+</main>
+</body>
+</html>
